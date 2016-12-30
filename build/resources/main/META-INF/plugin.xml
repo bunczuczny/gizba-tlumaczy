@@ -1,0 +1,21 @@
+<idea-plugin version="2">
+  <name>gizba-tlumaczy</name>
+  <version>0.1</version>
+  <description>
+      Enter short description for your plugin here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;
+    </description>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;
+    
+    </change-notes>
+  <idea-version since-build="141.0"/>
+  <extensions defaultExtensionNs="com.intellij"/>
+  <actions>
+    <action id="EditorBasics.GizbaTlumaczy" class="main.java.gizba.action.GizbaTlumaczy" text="gizba-tlumaczy" description="Translate selected text from dk to en, en to pl" popup="true">
+      <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="F10"/>
+    </action>
+  </actions>
+</idea-plugin>

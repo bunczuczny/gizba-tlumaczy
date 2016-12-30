@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.java.gizba.translator.TranslatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-12-30T23:29:56" hostname="T440PW10GIZ" time="3.563">
+  <properties/>
+  <testcase name="testTranslate" classname="test.java.gizba.translator.TranslatorTest" time="3.563"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>
